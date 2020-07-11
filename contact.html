@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="shortcut icon" href="ASSETS/contact_us.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <nav>
+        <h1><a href="index.html" class="home">Home</a></h1>
+    </nav>
+    <h1 class="center_text">Contact</h1>
+    <p class="center_text">So you can contact me via following platforms</p>
+    <ul>
+        <table cellspacing="10" cellpadding="7" class="center_link">
+            <tr>
+                <td><a href="https://www.facebook.com/harshit.goel.hg/" target="_blank" class="links">Facebook</a></td>
+                <td><a href="https://www.instagram.com/harshitgoyal116/" target="_blank" class="links">Instagram</a></td>
+            </tr>
+        </table>
+    </ul>
+    <form action="mailto:harshitgoyal.hg63@gmail.com" method="POST" enctype="text/plain" class="center_text">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" id="name" name="myName" class="textbox">
+        </div>
+        <br>
+        <label for="dob">Date of Birth</label>
+        <div>
+            <input type="date" name="MyDOB" id="dob" class="textbox">
+        </div>
+        <br>
+        <label for="email">Email</label>
+        <div>
+            <input type="email" name="MyEmail" id="email" class="textbox">
+        </div>
+        <br>
+        <label for="message">Message</label>
+        <div>
+            <textarea name="MyMessage" id="message" cols="30" rows="6"></textarea>
+        </div>
+        <br>
+        <label>Press submit button after filling form</label><br><br>
+        <input type="submit" value="Submit" class="btn"> &nbsp; &nbsp; &nbsp; <input type="reset" value="Reset" class="btn"><br>
+    </form>
+</body>
+
+</html>
